@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_view_btn_height">50dp</dimen>
+    <dimen name="menu_view_margin1">1dp</dimen>
+    <dimen name="menu_view_margin5">5dp</dimen>
+    <dimen name="menu_view_margin10">10dp</dimen>
+
+    <string name="menu_view_cancel">取消</string>
+
+    <color name="menu_view_white">@android:color/white</color>
+    <color name="menu_view_black">@android:color/black</color>
+    <color name="menu_view_stroke">#d3d7d4</color>
+
+    <dimen name="menu_view_size">18sp</dimen>
+
+    <color name="transparency_30">#4c000000</color>
+
+    <style name="menuViewAnim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/menu_view_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_view_out</item>
+    </style>
+</resources>

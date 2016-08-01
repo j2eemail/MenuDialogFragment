@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_item_view_btn"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_view_btn_height"
+    android:background="@drawable/ps__button_flat_digg"
+    android:gravity="center"
+    android:textColor="@color/menu_view_black"
+    android:textSize="@dimen/menu_view_size" />
+
